@@ -1,0 +1,4 @@
+ls -a ./src | grep -v '^\.' | while read line 
+do 
+	cp -rf ./src/$line ./dist/$line
+done
